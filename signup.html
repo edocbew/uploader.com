@@ -1,0 +1,32 @@
+<html>
+    <head> 
+        <title>Uploader | SignUp Page</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="assets/css/signup.css">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <div class="main">
+        <div class="form">
+                <div class="below">
+                    
+                                    <p id="p1">
+                                   <h1> Sign up for free </h1><br>
+                                    <form action="php/regusr.php" method="POSt" autocomplete="off">
+                                    <input id="usr" type="text" placeholder="Username*" name="v1" required>
+                                    <input id="em" type="email" placeholder="Email*" name="v3" required>
+                                    <input id="pwd" type="password" placeholder="Set Password*" name="v4" required>
+                                    <input id="cpwd" type="password" placeholder="Confirm password*" name="v2" required><br><br><br>
+                                    <center>
+                                        <div class="g-recaptcha" data-sitekey="6LcJtiUUAAAAAHb7Rm9q-stlsNPuxbcRhz1-o8QF"></div>
+                                        <input id="su" type="submit" value="Get Started" name="v5" required>
+                                    </center>
+                                    
+                                    </form>
+                                    </p>    
+                </div>
+                <script type="text/javascript" src="assets/js/form.js"></script>
+        </div>
+        </div>
+    </body>
+</html>
